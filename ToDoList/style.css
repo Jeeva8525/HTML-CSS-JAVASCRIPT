@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+}
+
+.typeBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.typeBox input {
+    position: relative;
+    left: 3%;
+    width: 30%;
+
+}
+
+.typeBox button {
+    position: relative;
+    left: 4%;
+}
+
+.itemDiv {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.items {
+    position: relative;
+    text-align: start;
+    padding: 0%;
+    width: 40%;
+}
+
+.itemDiv label {
+    padding: 0;
+}
+
+.itemDiv button {
+    height: fit-content;
+    margin-left: 4%;
+    color: red;
+    padding: 0 3px;
+}
+
+.items li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+p{
+    display:inline;
+}
