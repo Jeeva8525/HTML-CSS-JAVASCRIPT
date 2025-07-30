@@ -1,0 +1,58 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 80vh;
+    height: calc(80vh - 40px);
+    background-color: aquamarine;
+}
+#start{
+    display: block;
+    padding:10px 10px;
+    position: relative;
+    top:20%;
+    width: 60px;
+    margin:auto;
+}
+#extraSpace{
+    display: none;
+    height: 39px;
+}
+#screenProtector{
+    position: absolute;
+    bottom:0;
+    width: 100vw;
+    height: 80%;
+    z-index: 1;
+    display: block;
+}
+.outer{
+    position: relative;
+    margin:150px auto;
+    background-color: aqua;
+    width: 250px;
+    height: 60%;
+    display: grid;
+    grid-template:repeat(3,1fr) / repeat(3,1fr);
+    gap:1px;
+}
+.box{
+    border-radius:5px ;
+    background-color: violet;
+    
+}
+
+@media screen and (max-width:900px){
+    .outer{
+        width:200px;
+    }
+}
+@media screen and (max-width:500px){
+    .outer{
+        width:250px;
+        height: 250px;
+    }
+}
